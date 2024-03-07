@@ -10,6 +10,7 @@
   --color1: #7dcab6;
   --color2: #1a332c;
   --color4: #647571;
+  --color5: #F5F36E;
 }
 
 html {
@@ -63,14 +64,83 @@ a{
 
 /* ------------------HERO-CONTENT-SECTION---------------------------- */
 
+/* ---------------IMAGES-AND-TEXT-HERO-------------------- */
+
 .home {
-  height: 100vh;
-  /* background-color: #f0f0f0; */
+  height: 50vh;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
+
+.img-profile{
+  height: 90px;
+  width: 90px;
+  margin: 20px auto;
+  align-content: center;
+  border-radius: 50%;
+}
+
+.resalted-text {
+  color: var(--color5);
+  font-weight: 800;
+  font-family: "Merriweather", serif;
+}
+
+#hero-text {
+  margin: 0;
+}
+
+/* --------------SOCIAL-ICONS--------------------------------- */
+
+.socials .social-icons{
+  margin: 0 8px 10px 8px;
+  transform-origin: center center;  
+}
+
+.socials .social-icons:hover{
+  color: var(--color-text-body);
+}
+
+#social-icons-linkedin , #social-icons-github {
+  transform-origin: center center;
+}
+
+/* ----------------------------BUTTOM---------------- */
+
+.contact-me {
+  margin: 15px auto;
+
+}
+
+/* --------------BIO-DESCRIPTION---------------------------- */
+.home h3{
+  font-family: "Merriweather", serif;
+  font-weight: 100;
+  margin: 0;
+  color: var(--color5);
+}
+
+.bio {
+  display: grid;
+  grid-template-columns: 1fr 2fr 0.1fr 2fr 1fr;
+  grid-template-areas: "area1 area2 gap area3 area4";
+  align-content: center;
+  justify-content: center;
+  text-align: left;
+}
+
+.text1 {
+  grid-area: area2;
+}
+
+.text2 {
+  grid-area: area3;
+}
+
+
+/* -----------------Projects-Section---------------------- */
 
 .projects {
   padding: 20px;
