@@ -1,24 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./styles/master.css">
 </head>
+
 <body>
 
-  <div id="navbar">
-    <a href="#welcome-section">Welcome</a>
-    <a href="#projects">Projects</a>
-    <!-- Add more links as needed for navigation -->
+  <div id="navbar" class="navbar">
+    <ul class="links">
+      <a href="#home">
+        <li>Home</li>
+      </a>
+      <a href="#projects">
+        <li>Projects</li>
+      </a>
+      <a href="#contact">
+        <li> Contact Me</li>
+      </a>
+      <a href="#services">
+        <li>Services</li>
+      </a>
+      <a href="#skills">
+        <li>Skills</li>
+      </a>
+    </ul>
   </div>
 
-  <div id="welcome-section">
-    <h1>Welcome to My Portfolio!</h1>
+  <div id="home" class="home">
+    <img  class="img-profile" id="img-profile" src="./img/Profile.jpg" alt="It is a photo of the autor"/>
+    <h1>Hi there, I'm <Span id="my-name" class="my-name">Guille</Span></h1>
     <!-- Add more content as needed -->
   </div>
 
-  <div id="projects">
+  <div id="projects" class="projects">
     <div class="project-tile">
       <h2>Project 1</h2>
       <p>Description of Project 1.</p>
@@ -27,7 +44,8 @@
     <!-- Add more project tiles as needed -->
   </div>
 
-  <a id="profile-link" href="https://github.com/yourusername" target="_blank">Visit My GitHub Profile</a>
+  <a id="profile-link" href="https://github.com/GuillerFuentec" target="_blank">Visit My GitHub Profile</a>
 
 </body>
+
 </html>
