@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
+:root {
+  /* variables colors */
+  --color-nav-Text: #1a332c;
+  --color3-nav-bg: #6ef5d1;
+  --color-text-body: #ffffff;
+  --color-body-bg: #647571;
+  --color1: #7dcab6;
+  --color2: #1a332c;
+  --color4: #647571;
+  --color5: #f5f36e;
+}
+
+/* ------------NAVBAR-SECTION------------ */
+
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    height: 4rem;
+    background-color: var(--color3-nav-bg);
+    z-index: 10;
+  }
+  
+  .links {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    align-items: center;
+  }
+  
+  .links a {
+    display: flex;
+    height: 100%;
+    padding: 0 40px;
+    align-items: center;
+  }
+  
+  .links a:hover,
+  .links a:hover li {
+    background-color: var(--color-body-bg);
+    color: var(--color-text-body);
+    cursor: pointer;
+  }
+  
+  a {
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--color-nav-Text);
+  }

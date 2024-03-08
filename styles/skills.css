@@ -1,0 +1,18 @@
+/* ------------------Skills------------------------- */
+
+.skills {
+    height: 5vh;
+    width: 100%;
+    padding-top: 20px;
+  }
+  
+  .skill-icons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+  }
+  
+  .skill-icons p a {
+    padding: 0 5px;
+  }
+  

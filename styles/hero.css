@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
+:root {
+  /* variables colors */
+  --color-nav-Text: #1a332c;
+  --color3-nav-bg: #6ef5d1;
+  --color-text-body: #ffffff;
+  --color-body-bg: #647571;
+  --color1: #7dcab6;
+  --color2: #1a332c;
+  --color4: #647571;
+  --color5: #f5f36e;
+}
+
+/* ---------------HERO-CONTENT-SECTION---------------------------- */
+/* ---------------IMAGES-AND-TEXT-HERO-------------------- */
+
+.home {
+    height: 70vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .img-profile {
+    height: 90px;
+    width: 90px;
+    margin: 20px auto;
+    align-content: center;
+    border-radius: 50%;
+  }
+  
+  .resalted-text {
+    color: var(--color5);
+    font-weight: 800;
+    font-family: "Merriweather", serif;
+  }
+  
+  #hero-text {
+    margin: 0;
+  }
+  
+  #bio-contact-me {
+    border-bottom: 1px dotted;
+    cursor: pointer;
+  }
+  
+  /* ----------------------------BUTTOM---------------- */
+  
+  .contact-label {
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  .contact-button {
+    background-color: var(--color-body-bg);
+    border: none;
+    color: var(--color-nav-Text);
+    vertical-align: bottom;
+  }
+  
+  .contact-button:hover {
+    color: var(--color-text-body);
+    cursor: pointer;
+  }
+
+  /* --------------BIO-DESCRIPTION---------------------------- */
+.home h3 {
+    font-family: "Merriweather", serif;
+    font-weight: 100;
+    margin: 0;
+    color: var(--color5);
+  }
+  
+  .bio {
+    display: grid;
+    grid-template-columns: 1fr 2fr 0.1fr 2fr 1fr;
+    grid-template-areas: "area1 area2 gap area3 area4";
+    align-content: center;
+    justify-content: center;
+    text-align: left;
+    margin-top: -80px;
+    margin-bottom: 80px;
+  }
+  
+  .text1 {
+    grid-area: area2;
+
+  }
+  
+  .text2 {
+    grid-area: area3;
+
+  }
+  

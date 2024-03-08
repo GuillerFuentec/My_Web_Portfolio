@@ -1,0 +1,11 @@
+/* --------------SOCIAL-ICONS--------------------------------- */
+
+/* .socials */
+ .social-icons {
+  margin: 0 8px 10px 8px;
+}
+
+/* .socials  */
+.social-icons:hover {
+  color: var(--color-text-body);
+}
