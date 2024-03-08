@@ -1,33 +1,238 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./styles/master.css">
+  <title>Guillermo Copello</title>
 </head>
+
 <body>
 
-  <div id="navbar">
-    <a href="#welcome-section">Welcome</a>
-    <a href="#projects">Projects</a>
-    <!-- Add more links as needed for navigation -->
+  <div id="navbar" class="navbar">
+    <ul class="links">
+      <a href="#1home">
+        <li>Home</li>
+      </a>
+      <a href="#projects">
+        <li>Projects</li>
+      </a>
+      <a id="nav-contact-button">
+        <li> Contact Me</li>
+      </a>
+      <a href="#services">
+        <li>Services</li>
+      </a>
+      <a href="#skills">
+        <li>Skills</li>
+      </a>
+      <a href="#experience">
+        <li>Experience</li>
+      </a>
+      </a>
+      <a href="#blog">
+        <li>Blog</li>
+      </a>
+    </ul>
   </div>
 
-  <div id="welcome-section">
-    <h1>Welcome to My Portfolio!</h1>
-    <!-- Add more content as needed -->
-  </div>
+  <div id="home" class="home">
+    <img class="img-profile" id="img-profile" src="./img/Profile.jpg" alt="It is a photo of the autor" />
 
-  <div id="projects">
-    <div class="project-tile">
-      <h2>Project 1</h2>
-      <p>Description of Project 1.</p>
-      <a href="#project-link">View Project</a>
+    <!------------------------- Socials --------------------------------------->
+    <div class="socials">
+      <!-- Linkdind -->
+      <a class="social-icons" target="_blank" href="https://www.linkedin.com/in/guillermo-copello-624222230/">
+        <svg xmlns="http://www.w3.org/2000/svg" id="social-icons-linkedin" width="25" height="25" fill="currentColor"
+          class="bi bi-linkedin" viewBox="0 0 16 16">
+          <path
+            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+        </svg>
+      </a>
+      <!-- Github -->
+      <a class="social-icons" target="_blank" href="https://github.com/GuillerFuentec">
+        <svg xmlns="http://www.w3.org/2000/svg" id="social-icons-github" width="26" height="26" fill="currentColor"
+          class="bi bi-github" viewBox="0 0 16 16">
+          <path
+            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+        </svg>
+      </a>
     </div>
-    <!-- Add more project tiles as needed -->
+
+    <h1 id="hero-text">Hi there, I'm <Span id="my-name" class="resalted-text">Guille</Span></h1>
+    <h3>Your next .NET developer</h3>
+
+    <div class="contac-me">
+      <label for="contact-me" name="contact" class="contact-label">copelloguillermo60@gmail.com</label>
+      <button class="contact-button" id="contact-me" value="">
+        <svg xmlns="http://www.w3.org/2000/svg" id="contact-me-email" width="22" height="22" fill="currentColor"
+          class="bi bi-send" viewBox="0 0 16 16">
+          <path
+            d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576zm6.787-8.201L1.591 6.602l4.339 2.76z" />
+        </svg>
+      </button>
+
+    </div>
+
+    <!------------------------- Send-Me-an-Email ------------------------------------------->
+
   </div>
 
-  <a id="profile-link" href="https://github.com/yourusername" target="_blank">Visit My GitHub Profile</a>
+  <div class="bio">
+    <div class="text1">
+      <p class="">
+        I am a passionate <span class="resalted-text">junior C#</span> <span class="resalted-text">.NET</span>,<span
+          class="resalted-text">Web</span> developer, with a notion of creating <span class="resalted-text">scripts for
+          Unity 3D Engine</span>, and I currently work as a <span class="resalted-text">freelancer</span> doing very
+        simple jobs like landing pages. I am self-taught, and I have a deep love for programming.
+        <br>
+        <br>
+        I am currently working on my personal portfolio, some jobs and orders from my esteemed clients and expanding my
+        skills learning JavaScript and React. All my projects are available on this website.
+        <br>
+        <br>
+        I have <span class="resalted-text">experience</span> in <span class="resalted-text">ASP.NET</span>, and web
+        development with <span class="resalted-text">vanilla HTML and CSS</span>.
+      </p>
+    </div>
+    <div class="text2">
+      <p class="">
+        <span class="resalted-text">My aspirations</span> are to become a <span class="resalted-text">FullStack</span>
+        web developer, fully mastering technologies such as <span class="resalted-text">entity framework ORM</span>,
+        <span class="resalted-text">ASP.NET</span>, development of <span class="resalted-text">API and Rest API</span>,
+        <span class="resalted-text">Blazor</span>, <span class="resalted-text">Razor</span>, <span
+          class="resalted-text">React Framework</span>, <span class="resalted-text">Bootstrap</span> and upcoming
+        technologies that contribute to the efficiency and acceleration of technological development, as long as they
+        are reliable, secure and accessible to users.
+        <br>
+        <br>
+        <span class="resalted-text">I regularly write articles on my website</span>, where I share my knowledge and
+        experiences.
+        <br>
+        <br>
+        I am someone who is constantly learning and growing along with the technology industry. <span
+          class="resalted-text" id="bio-contact-me">Contact me</span>, I am excited to bring my skills and passion to
+        your team.
+      </p>
+    </div>
+  </div>
+  <div>
+    <div class="skills" id="skills">
+      <h2>Skills</h2>
+    </div>
+    <div class="skill-icons">
+      <p> <a href="https://www.blender.org/" target="_blank" rel="noreferrer"> <img
+            src="https://download.blender.org/branding/community/blender_community_badge_white.svg" alt="blender"
+            width="60" height="60" /> </a> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg"
+            alt="bootstrap" width="60" height="60" /> </a> <a href="https://www.w3schools.com/cs/" target="_blank"
+          rel="noreferrer"> <img
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg"
+            alt="csharp" width="60" height="60" /> </a> <a href="https://www.w3schools.com/css/" target="_blank"
+          rel="noreferrer"> <img
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
+            alt="css3" width="60" height="60" /> </a> <a href="https://www.docker.com/" target="_blank"
+          rel="noreferrer">
+          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg"
+            alt="docker" width="60" height="60" /> </a> <a href="https://dotnet.microsoft.com/" target="_blank"
+          rel="noreferrer"> <img
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original-wordmark.svg"
+            alt="dotnet" width="60" height="60" /> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
+          <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="60" height="60" /> </a>
+        <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
+            alt="html5" width="60" height="60" /> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+          target="_blank" rel="noreferrer"> <img
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+            alt="javascript" width="60" height="60" /> </a> <a href="https://www.linux.org/" target="_blank"
+          rel="noreferrer"> <img
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux"
+            width="60" height="60" /> </a> <a href="https://www.microsoft.com/en-us/sql-server" target="_blank"
+          rel="noreferrer"> <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql"
+            width="60" height="60" /> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
+            alt="nodejs" width="60" height="60" /> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
+          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
+            alt="react" width="60" height="60" /> </a> <a href="https://unity.com/" target="_blank" rel="noreferrer">
+          <img src="https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg" alt="unity" width="60" height="60" />
+        </a>
+      </p>
 
+    </div>
+  </div>
+  <h2>Projects</h2>
+
+
+  <div class="projects">
+    <div class="columns-in-row1">
+
+      <div class="calorie-counter">
+        <div class="project">
+          <img src="./img/Calorie-counter.jpg" class="project-img" alt="a counter calorie calculator">
+          <h3>Counter Calories</h3>
+          <p>“This simple web application allows users to display and customize the current date based on different
+            format
+            options.”</p>
+          </div>
+          <a href="#project-link" class="view-project" >View Project</a>
+        </div>
+    </div>
+
+    <div class="columns-in-row2">
+      <div class="rpg">
+        <div class="project">
+
+          <img src="./img/rpg.jpg" class="project-img" alt="a counter calorie calculator">
+          <h3>RPG JavaScript Game</h3>
+          <p>“This simple web application allows users to display and customize the current date based on different
+            format
+            options.”</p>
+          <a href="#project-link" class="view-project" >View Project</a>
+        </div>
+      </div>
+    </div>
+    <div class="columns-in-row3">
+      <div class="lan-page">
+        <div class="project">
+
+          <img src="./img/landing.jpg" class="project-img" alt="an image of a bussines landing page">
+          <h3>Bussines Landing Page</h3>
+          <p>“I have created this business landing page to provide an effective digital platform that
+            highlights the company’s services and values. The page is designed to be intuitive and easy to navigate,
+            allowing visitors to quickly get the information they need. I have implemented a clear structure and
+            attractive aesthetics to ensure a positive user experience. In addition, I have optimized the page for speed
+            and cross-browser compatibility, ensuring that visitors have a smooth experience regardless of their device
+            or
+            browser. In summary, this landing page is the result of my commitment to best web development practices and
+            my
+            passion for creating digital solutions that drive business success.”</p>
+          <a href="#project-link" class="view-project" >View Project</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="columns-in-row4">
+      <div class="muscic-player">
+        <div class="project">
+          <img src="./img/music-player.jpg" class="project-img" alt="a player reproductor application">
+
+          <h3>Music Player</h3>
+          <p>“This JavaScript music player project is a part of my educational learning journey with the guidance
+            provided
+            by FreeCodeCamp. The goal is to construct a functional music player with various features to enhance my
+            programming skills.”</p>
+          <a href="#project-link" class="view-project" >View Project</a>
+        </div>
+      </div>
+    </div>
+
+
+
+  </div>
+
+  <!-- <a id="profile-link" href="https://github.com/GuillerFuentec" target="_blank">Visit My GitHub Profile</a> -->
+  <script src="./scripts/script.js"></script>
 </body>
+
 </html>
